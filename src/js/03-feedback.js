@@ -1,6 +1,6 @@
 import _ from 'lodash';
 
-form = document.querySelector('.feedback-form');
+const form = document.querySelector('.feedback-form');
 
 const LOCAL_KEY = 'feedback-form-state';
 let formData = JSON.parse(localStorage.getItem(LOCAL_KEY)) || {};
